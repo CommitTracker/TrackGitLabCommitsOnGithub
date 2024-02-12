@@ -17,6 +17,6 @@ Make sure to give the Token **API Read** access.
 - Clone that repository to the local machine
 - Open app settings and update it with relevant information.  
 - You can find the project id in the repository settings.
-- If you are having package issues run the [`installer.bat`](https://github.com/illuminat3/TrackAzureCommitsOnGithub/blob/main/installer.bat) script.
+- If you are having package issues run the [`installer.bat`](https://github.com/illuminat3/TrackGitLabCommitsOnGithub/blob/main/installer.bat) script.
 
 
