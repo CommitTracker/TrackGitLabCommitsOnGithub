@@ -41,7 +41,7 @@ def main():
                 try:
                     # Assuming the commit message or content is being fetched in a manner suitable for GitHub
                     commit_message = f"Commit {commit} from GitLab"
-                    github_helper.commit(commit_message, "commits", f"{commit}.txt", file_content="Commit details here")
+                    github_helper.commit(commit_message, "commits", f"{commit}.txt", file_content=commit)
                 except Exception as e:
                     print(f"Failed to commit {commit} to GitHub: {e}")
 
